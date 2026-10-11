@@ -1,11 +1,13 @@
-import { Activity, FileCheck2, FileText, LayoutDashboard, Settings2, Users, type LucideIcon } from 'lucide-react'
+import { BarChart3, FileCheck2, FileText, HeartPulse, LayoutDashboard, Settings2, Users, type LucideIcon } from 'lucide-react'
+import { getSystemStatus } from '@/lib/monitoring-data'
 
 const workspaceLinks: { label: string; href: string; icon: LucideIcon }[] = [
   { label: 'Overview', href: '/app', icon: LayoutDashboard },
   { label: 'Invoices', href: '/app/invoices', icon: FileText },
   { label: 'ITC reconciliation', href: '/app/itc', icon: FileCheck2 },
   { label: 'Vendors', href: '/app/vendors', icon: Users },
-  { label: 'Reports', href: '/app/reports', icon: Activity },
+  { label: 'Reports', href: '/app/reports', icon: BarChart3 },
+  { label: 'Monitoring', href: '/app/monitoring', icon: HeartPulse },
 ]
 
 export function MobileWorkspaceNav({ active, tourTarget }: { active: string; tourTarget?: string }) {
@@ -13,10 +15,12 @@ export function MobileWorkspaceNav({ active, tourTarget }: { active: string; tou
 }
 
 export function AppShell({ children, active, tourTarget }: { children: React.ReactNode; active: string; tourTarget?: string }) {
+  const systemStatus = getSystemStatus()
+
   return <div className="min-h-screen bg-background text-foreground">
     <header className="sticky top-0 z-30 flex h-[72px] items-center justify-between border-b border-white/15 bg-[#474c80] px-4 text-[#f8f7e2] shadow-[0_8px_28px_rgba(38,40,73,0.18)] sm:px-7">
       <a href="/app" aria-label="Folio workspace home" className="flex items-center gap-3"><span className="flex size-10 items-center justify-center rounded-2xl bg-[#f8f7e2] text-[#474c80] shadow-sm"><FileText className="size-5" /></span><span className="text-2xl font-bold tracking-[-0.06em] text-[#f8f7e2]">folio<span className="text-[#c7c8e5]">.</span></span><span className="ml-1 hidden border-l border-white/25 pl-4 text-sm font-medium text-[#f8f7e2]/75 sm:inline">GST workspace</span></a>
-      <div className="flex items-center gap-3"><span className="hidden items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold text-[#f8f7e2] md:inline-flex"><span className="size-2 rounded-full bg-[#78d0a3] shadow-[0_0_12px_rgba(120,208,163,0.9)]" />All systems operational</span><a href="/app/settings" aria-label="Settings" className="rounded-xl p-2.5 text-[#f8f7e2]/85 transition hover:bg-white/10 hover:text-white"><Settings2 className="size-5" /></a><span className="flex size-10 items-center justify-center rounded-full border-2 border-[#d9d9ef] bg-[#f8f7e2] text-sm font-bold text-[#474c80]" aria-label="Account: Aditi Mehta">AM</span></div>
+      <div className="flex items-center gap-3"><a href="/app/monitoring" aria-label={`System status: ${systemStatus.label}`} className="hidden items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold text-[#f8f7e2] transition hover:bg-white/15 md:inline-flex"><span className="size-2 rounded-full" style={{ backgroundColor: systemStatus.dotColor, boxShadow: `0 0 10px ${systemStatus.dotColor}` }} />{systemStatus.label}</a><a href="/app/settings" aria-label="Settings" className="rounded-xl p-2.5 text-[#f8f7e2]/85 transition hover:bg-white/10 hover:text-white"><Settings2 className="size-5" /></a><span className="flex size-10 items-center justify-center rounded-full border-2 border-[#d9d9ef] bg-[#f8f7e2] text-sm font-bold text-[#474c80]" aria-label="Account: Aditi Mehta">AM</span></div>
     </header>
     <div className="mx-auto flex min-h-[calc(100vh-72px)] max-w-[1680px]">
       <aside className={`relative hidden w-[264px] shrink-0 border-r border-[#393d68] bg-[#474c80] px-4 py-7 text-[#f8f7e2] lg:block ${tourTarget === 'sidebar' ? 'z-[61] ring-4 ring-[#c7c8e5] ring-offset-4 ring-offset-background' : ''}`}><p className="px-3 text-[11px] font-bold uppercase tracking-[0.18em] text-[#c7c8e5]">Workspace</p><nav aria-label="Workspace" className="mt-4 flex flex-col gap-1.5">{workspaceLinks.map(({ label, href, icon: Icon }) => <a key={label} href={href} aria-current={active === label ? 'page' : undefined} className={`flex min-h-12 items-center gap-3 rounded-xl px-3.5 text-[15px] font-semibold transition ${active === label ? 'bg-[#f8f7e2] text-[#393d68] shadow-[0_6px_20px_rgba(30,31,55,0.16)]' : 'text-[#f8f7e2]/80 hover:bg-white/10 hover:text-white'}`}><Icon aria-hidden="true" className="size-[18px]" />{label}</a>)}</nav><div className="mt-9 border-t border-white/15 pt-6"><p className="px-3 text-[11px] font-bold uppercase tracking-[0.18em] text-[#c7c8e5]">Manage</p><nav aria-label="Manage workspace" className="mt-3 flex flex-col gap-1"><a href="/app/settings" className="flex min-h-11 items-center gap-3 rounded-xl px-3.5 text-sm font-medium text-[#f8f7e2]/80 hover:bg-white/10"><Settings2 className="size-[18px]" />Business settings</a><a href="/app/settings?section=team" className="flex min-h-11 items-center gap-3 rounded-xl px-3.5 text-sm font-medium text-[#f8f7e2]/80 hover:bg-white/10"><Users className="size-[18px]" />Team members</a></nav></div><div className="mt-9 rounded-2xl border border-white/15 bg-[#393d68]/70 p-4"><span className="flex size-10 items-center justify-center rounded-xl bg-[#f8f7e2] text-[#474c80]"><FileCheck2 className="size-5" /></span><p className="mt-4 text-sm font-bold text-[#f8f7e2]">Your books are in good shape</p><p className="mt-1.5 text-xs leading-5 text-[#f8f7e2]/70">37 of 48 invoices are ready to reconcile.</p><div className="mt-4 h-2 overflow-hidden rounded-full bg-white/15"><div className="h-full w-[77%] rounded-full bg-[#a6d8b9]" /></div><p className="mt-2 text-[11px] font-semibold text-[#d7ebdc]">77% filing-ready</p></div></aside>
