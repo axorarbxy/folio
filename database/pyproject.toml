@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "folio-db"
+version = "0.1.0"
+description = "Folio GST workspace database layer: system of record, tenant isolation, and audit trail"
+authors = [{ name = "Folio Engineering", email = "engineering@folio-tax.in" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "sqlalchemy>=2.0.35",
+    "alembic>=1.13.0",
+    "psycopg[binary]>=3.2.0",
+    "pydantic>=2.8.0",
+    "pydantic-settings>=2.2.0",
+    "cryptography>=42.0.0",
+    "argon2-cffi>=23.1.0",
+    "pyyaml>=6.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["src", "."]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
