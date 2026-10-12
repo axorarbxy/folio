@@ -1,0 +1,15 @@
+{
+  "invoice_id": "INV-2024-0044",
+  "is_clean": false,
+  "style": "regional",
+  "layout": "regional_mixed",
+  "injected_errors": [
+    "reverse_charge_mismatch"
+  ],
+  "expected_failing_checks": [
+    "reverse_charge_consistency"
+  ],
+  "degradation": {
+    "severity": 0
+  }
+}

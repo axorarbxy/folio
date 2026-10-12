@@ -1,0 +1,386 @@
+{
+  "id": "INV-2024-0252",
+  "source_file_hash": "b53e6b183b7fff66d5a0bc5a15561cc2df95661f54b7db40511f835c0ea42e13",
+  "supplier_name": {
+    "value": "Marwar Heavy Engineering",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.1,
+      "x1": 0.55,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_gstin": {
+    "value": "08PPQZB2612B1ZG",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.14,
+      "x1": 0.45,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_state": {
+    "value": "08",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.17,
+      "x1": 0.35,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_name": {
+    "value": "Apex Precision Tools Pvt Ltd",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.24,
+      "x1": 0.55,
+      "y1": 0.28
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_gstin": {
+    "value": "27WDAZJ5012H1ZU",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.28,
+      "x1": 0.45,
+      "y1": 0.31
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_state": {
+    "value": "27",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.31,
+      "x1": 0.35,
+      "y1": 0.34
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "number": {
+    "value": "INV-2024-0252",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.1,
+      "x1": 0.92,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "date": {
+    "value": "2024-06-12",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.14,
+      "x1": 0.92,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "place_of_supply": {
+    "value": "27",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.17,
+      "x1": 0.92,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "reverse_charge": {
+    "value": false,
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.2,
+      "x1": 0.92,
+      "y1": 0.23
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "irn": {
+    "value": "4db625c8d36f96bf83386f983daa571ce7835de5ee4d614b6dbfbf1d28cae958",
+    "confidence": 0.98,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.05,
+      "x1": 0.92,
+      "y1": 0.08
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "items": [
+    {
+      "description": {
+        "value": "Caustic Soda Flakes Rayon Grade",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.42,
+          "x1": 0.92,
+          "y1": 0.47
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "2815",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "30",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "KGS",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "48.00",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "1440.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "18.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    },
+    {
+      "description": {
+        "value": "Annual Software License Maintenance AMC",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.48,
+          "x1": 0.92,
+          "y1": 0.53
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "998319",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "22",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "SET",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "45000.00",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "990000.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "18.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    }
+  ],
+  "totals": {
+    "taxable_amount": {
+      "value": "991440.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.72,
+        "x1": 0.92,
+        "y1": 0.75
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cgst_amount": {
+      "value": "0.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.75,
+        "x1": 0.92,
+        "y1": 0.78
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "sgst_amount": {
+      "value": "0.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.78,
+        "x1": 0.92,
+        "y1": 0.81
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "igst_amount": {
+      "value": "178459.20",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.81,
+        "x1": 0.92,
+        "y1": 0.84
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cess_amount": {
+      "value": "0.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.84,
+        "x1": 0.92,
+        "y1": 0.86
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "total_amount": {
+      "value": "1169899.20",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.86,
+        "x1": 0.92,
+        "y1": 0.9
+      },
+      "source": "reader",
+      "edited": false
+    }
+  },
+  "status": "draft"
+}

@@ -1,0 +1,196 @@
+{
+  "run_id": "eval_20261011_134722",
+  "mode": "fake",
+  "git_commit": "a2ce6a706b450f171ed8fe8e8d45ffd9ed5aa780",
+  "data_manifest_hash": "4db5a2d5cfbf7c6e323ff9d1d7e547d91a75bfba8d8da267507ec072168caf5d",
+  "timestamp": "2026-10-11T13:47:22.508262+00:00",
+  "rule_table_version": "v1",
+  "validation": {
+    "suite": "validation",
+    "total_injected_tests": 110,
+    "overall_detection_recall": 100.0,
+    "recall_95_ci": [
+      100.0,
+      100.0
+    ],
+    "false_alarm_rate_on_clean": 0.0,
+    "arithmetic_correctness": 100.0,
+    "results_by_injector": {
+      "inject_wrong_rate": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_invalid_gstin": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_math_error_line": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_math_error_total": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_wrong_tax_type": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_duplicate_invoice": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_bad_date": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_missing_irn": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_rounding_abuse": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_reverse_charge_mismatch": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_tampered_amount_after_render": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      }
+    }
+  },
+  "calibration": {
+    "suite": "calibration",
+    "expected_calibration_error_ece": 0.0039,
+    "brier_score": 0.0142,
+    "threshold_analysis": [
+      {
+        "threshold": 0.95,
+        "coverage_pct": 82.5,
+        "precision_pct": 99.4
+      },
+      {
+        "threshold": 0.9,
+        "coverage_pct": 87.1,
+        "precision_pct": 98.9
+      },
+      {
+        "threshold": 0.85,
+        "coverage_pct": 90.7,
+        "precision_pct": 98.38
+      },
+      {
+        "threshold": 0.8,
+        "coverage_pct": 93.4,
+        "precision_pct": 97.2
+      },
+      {
+        "threshold": 0.7,
+        "coverage_pct": 96.8,
+        "precision_pct": 94.6
+      }
+    ],
+    "human_effort_saved_pct": 87.1
+  },
+  "reconciliation": {
+    "suite": "reconciliation",
+    "match_precision": 100.0,
+    "match_recall": 100.0,
+    "total_invoices_books": 4,
+    "total_invoices_2b": 3,
+    "rupee_at_risk": "61360.00",
+    "bucket_counts": {
+      "value_mismatch": 1,
+      "matched": 1,
+      "vendor_not_filed": 1,
+      "ineligible": 1
+    }
+  },
+  "guardrails": {
+    "suite": "guardrails",
+    "total_samples": 84,
+    "true_positive_rate_tpr": 100.0,
+    "false_positive_rate_fpr": 0.0,
+    "precision": 100.0,
+    "f1_score": 1.0,
+    "by_language": {
+      "en": {
+        "tp": 28,
+        "fn": 0,
+        "fp": 0,
+        "tn": 26
+      },
+      "hi": {
+        "tp": 9,
+        "fn": 0,
+        "fp": 0,
+        "tn": 8
+      },
+      "mr": {
+        "tp": 5,
+        "fn": 0,
+        "fp": 0,
+        "tn": 8
+      }
+    }
+  },
+  "latency": {
+    "suite": "latency",
+    "samples_evaluated": 50,
+    "rule_engine_p50_ms": 0.071,
+    "rule_engine_p95_ms": 0.104,
+    "rule_engine_p99_ms": 0.132,
+    "ocr_preprocessor_p50_ms": 14.5,
+    "reader_vlm_p50_ms": 320.0,
+    "total_pipeline_p50_ms": 338.0,
+    "estimated_tokens_per_invoice": 1250,
+    "estimated_cost_usd_per_invoice": 0.00085
+  },
+  "baseline_comparison": {
+    "suite": "baseline_comparison",
+    "comparison": {
+      "folio_pipeline": {
+        "error_detection_recall": 90.91,
+        "false_alarm_rate": 0.0,
+        "arithmetic_correctness": 100.0,
+        "hallucinated_values_rate": 0.0,
+        "true_positives": 20,
+        "false_positives": 0
+      },
+      "single_prompt_baseline": {
+        "error_detection_recall": 0.0,
+        "false_alarm_rate": 0.0,
+        "arithmetic_correctness": 92.86,
+        "hallucinated_values_rate": 7.14,
+        "true_positives": 0,
+        "false_positives": 0
+      }
+    },
+    "chart_saved_to": "C:\\Users\\SNEHAL SHEWALE\\.gemini\\antigravity\\scratch\\folio\\ml\\reports\\eval_20261011_134722\\baseline_comparison.png"
+  }
+}

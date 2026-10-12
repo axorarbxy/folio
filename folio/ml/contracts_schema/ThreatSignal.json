@@ -1,0 +1,97 @@
+{
+  "description": "Signal indicating tampering, injection, near-duplicate, or anomaly in invoice documents.",
+  "properties": {
+    "signal_id": {
+      "title": "Signal Id",
+      "type": "string"
+    },
+    "signal_type": {
+      "enum": [
+        "prompt_injection",
+        "hidden_text",
+        "tamper",
+        "near_duplicate",
+        "heuristic",
+        "qr_mismatch",
+        "duplicate_invoice",
+        "edited_after_approval",
+        "gstin_name_mismatch",
+        "bank_detail_change",
+        "sequence_anomaly",
+        "tampered_document",
+        "new_vendor_high_value"
+      ],
+      "title": "Signal Type",
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ],
+      "title": "Severity",
+      "type": "string"
+    },
+    "confidence": {
+      "default": 1.0,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "description": {
+      "title": "Description",
+      "type": "string"
+    },
+    "status": {
+      "default": "open",
+      "enum": [
+        "open",
+        "resolved",
+        "dismissed"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "risk_score": {
+      "default": 50.0,
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "title": "Risk Score",
+      "type": "number"
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "recommended_steps": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Recommended Steps",
+      "type": "array"
+    },
+    "spans": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Spans",
+      "type": "array"
+    }
+  },
+  "required": [
+    "signal_id",
+    "signal_type",
+    "severity",
+    "description"
+  ],
+  "title": "ThreatSignal",
+  "type": "object"
+}

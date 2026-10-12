@@ -1,0 +1,81 @@
+{
+  "description": "Result of an individual deterministic or AI validation check.",
+  "properties": {
+    "check_id": {
+      "title": "Check Id",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "pass",
+        "fail",
+        "inconclusive",
+        "skipped"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ],
+      "title": "Severity",
+      "type": "string"
+    },
+    "kind": {
+      "default": "deterministic",
+      "enum": [
+        "deterministic",
+        "ai"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "expected": {
+      "default": null,
+      "title": "Expected"
+    },
+    "found": {
+      "default": null,
+      "title": "Found"
+    },
+    "formula": {
+      "default": "",
+      "title": "Formula",
+      "type": "string"
+    },
+    "why_it_matters": {
+      "default": "",
+      "title": "Why It Matters",
+      "type": "string"
+    },
+    "fixes": {
+      "description": "Structured action codes, e.g. REQUEST_CREDIT_NOTE, VERIFY_GSTIN_ON_PORTAL",
+      "items": {
+        "type": "string"
+      },
+      "title": "Fixes",
+      "type": "array"
+    },
+    "rule_table_version": {
+      "default": "v1",
+      "title": "Rule Table Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "check_id",
+    "name",
+    "status",
+    "severity"
+  ],
+  "title": "CheckResult",
+  "type": "object"
+}

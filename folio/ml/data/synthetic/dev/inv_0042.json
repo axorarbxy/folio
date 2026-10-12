@@ -1,0 +1,308 @@
+{
+  "id": "INV-2024-0042",
+  "source_file_hash": "1cc8d3130b384bcb9beaf5ec91de1e7c7f8c5e7c5918d92583d7e6ad61b2bd3a",
+  "supplier_name": {
+    "value": "Awadh Medical Instruments",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.1,
+      "x1": 0.55,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_gstin": {
+    "value": "09EEXRT3705J1ZI",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.14,
+      "x1": 0.45,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_state": {
+    "value": "09",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.17,
+      "x1": 0.35,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_name": {
+    "value": "Silicon City Infotech Solutions",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.24,
+      "x1": 0.55,
+      "y1": 0.28
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_gstin": {
+    "value": "29DNJQW6977F1ZW",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.28,
+      "x1": 0.45,
+      "y1": 0.31
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_state": {
+    "value": "29",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.31,
+      "x1": 0.35,
+      "y1": 0.34
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "number": {
+    "value": "INV-2024-0042",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.1,
+      "x1": 0.92,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "date": {
+    "value": "2024-07-13",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.14,
+      "x1": 0.92,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "place_of_supply": {
+    "value": "29",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.17,
+      "x1": 0.92,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "reverse_charge": {
+    "value": false,
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.2,
+      "x1": 0.92,
+      "y1": 0.23
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "irn": {
+    "value": null,
+    "confidence": 0.98,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.05,
+      "x1": 0.92,
+      "y1": 0.08
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "items": [
+    {
+      "description": {
+        "value": "Flexible Jaw Coupling Spider Size 95",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.42,
+          "x1": 0.92,
+          "y1": 0.47
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "8483",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "50",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "SET",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "850.00",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "42500.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "18.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    }
+  ],
+  "totals": {
+    "taxable_amount": {
+      "value": "42500.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.72,
+        "x1": 0.92,
+        "y1": 0.75
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cgst_amount": {
+      "value": "0.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.75,
+        "x1": 0.92,
+        "y1": 0.78
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "sgst_amount": {
+      "value": "0.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.78,
+        "x1": 0.92,
+        "y1": 0.81
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "igst_amount": {
+      "value": "7650.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.81,
+        "x1": 0.92,
+        "y1": 0.84
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cess_amount": {
+      "value": "0.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.84,
+        "x1": 0.92,
+        "y1": 0.86
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "total_amount": {
+      "value": "50150.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.86,
+        "x1": 0.92,
+        "y1": 0.9
+      },
+      "source": "reader",
+      "edited": false
+    }
+  },
+  "status": "draft"
+}

@@ -1,0 +1,386 @@
+{
+  "id": "INV-2024-0287",
+  "source_file_hash": "f1604f3e5eb0d1f2d39258e607534a04e66012200c2a37bc586f403dea8875f8",
+  "supplier_name": {
+    "value": "Indraprastha Electric Cables",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.1,
+      "x1": 0.55,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_gstin": {
+    "value": "07TAXZD9797J1ZJ",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.14,
+      "x1": 0.45,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_state": {
+    "value": "07",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.17,
+      "x1": 0.35,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_name": {
+    "value": "Apex Precision Tools Pvt Ltd",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.24,
+      "x1": 0.55,
+      "y1": 0.28
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_gstin": {
+    "value": "27WDAZJ5012H1ZU",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.28,
+      "x1": 0.45,
+      "y1": 0.31
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_state": {
+    "value": "27",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.31,
+      "x1": 0.35,
+      "y1": 0.34
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "number": {
+    "value": "INV-2024-0287",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.1,
+      "x1": 0.92,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "date": {
+    "value": "2024-04-18",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.14,
+      "x1": 0.92,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "place_of_supply": {
+    "value": "27",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.17,
+      "x1": 0.92,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "reverse_charge": {
+    "value": false,
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.2,
+      "x1": 0.92,
+      "y1": 0.23
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "irn": {
+    "value": "afcdb67ffce93979877a1908b9dabb7c4136ce76742947d4b83a5e2cc106b9cc",
+    "confidence": 0.98,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.05,
+      "x1": 0.92,
+      "y1": 0.08
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "items": [
+    {
+      "description": {
+        "value": "Self-Adhesive Barcode Labels 50x25 Roll",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.42,
+          "x1": 0.92,
+          "y1": 0.47
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "4821",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "18",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "SET",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "220.00",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "3960.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "28.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    },
+    {
+      "description": {
+        "value": "HDPE Granules Extrusion Grade Resin",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.48,
+          "x1": 0.92,
+          "y1": 0.53
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "3901",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "31",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "KGS",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "108.00",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "3348.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "18.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    }
+  ],
+  "totals": {
+    "taxable_amount": {
+      "value": "7308.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.72,
+        "x1": 0.92,
+        "y1": 0.75
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cgst_amount": {
+      "value": "0.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.75,
+        "x1": 0.92,
+        "y1": 0.78
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "sgst_amount": {
+      "value": "0.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.78,
+        "x1": 0.92,
+        "y1": 0.81
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "igst_amount": {
+      "value": "1315.44",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.81,
+        "x1": 0.92,
+        "y1": 0.84
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cess_amount": {
+      "value": "0.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.84,
+        "x1": 0.92,
+        "y1": 0.86
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "total_amount": {
+      "value": "8623.44",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.86,
+        "x1": 0.92,
+        "y1": 0.9
+      },
+      "source": "reader",
+      "edited": false
+    }
+  },
+  "status": "draft"
+}

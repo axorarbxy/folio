@@ -1,0 +1,542 @@
+{
+  "id": "INV-2024-0281",
+  "source_file_hash": "567639febca62c927e673dceb16180c782025896df6a3db243e7c977520d26cd",
+  "supplier_name": {
+    "value": "Yamuna Steel Trade Hub",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.1,
+      "x1": 0.55,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_gstin": {
+    "value": "07AZZJS3927S1Z8",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.14,
+      "x1": 0.45,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_state": {
+    "value": "07",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.17,
+      "x1": 0.35,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_name": {
+    "value": "Indraprastha Electric Cables",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.24,
+      "x1": 0.55,
+      "y1": 0.28
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_gstin": {
+    "value": "07TAXZD9797J1ZJ",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.28,
+      "x1": 0.45,
+      "y1": 0.31
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_state": {
+    "value": "07",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.31,
+      "x1": 0.35,
+      "y1": 0.34
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "number": {
+    "value": "INV-2024-0281",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.1,
+      "x1": 0.92,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "date": {
+    "value": "2024-07-01",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.14,
+      "x1": 0.92,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "place_of_supply": {
+    "value": "07",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.17,
+      "x1": 0.92,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "reverse_charge": {
+    "value": false,
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.2,
+      "x1": 0.92,
+      "y1": 0.23
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "irn": {
+    "value": "cea8a85c24aa20a6478f30ce15134172bb33aaa44b427b2c4d7ae7a63b81fd41",
+    "confidence": 0.98,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.05,
+      "x1": 0.92,
+      "y1": 0.08
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "items": [
+    {
+      "description": {
+        "value": "Polypropylene Homopolymer Pellets",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.42,
+          "x1": 0.92,
+          "y1": 0.47
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "3902",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "24",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "KGS",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "98.50",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "2364.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "9.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "9.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    },
+    {
+      "description": {
+        "value": "Cotton Knit Crewneck T-Shirts Pack of 10",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.48,
+          "x1": 0.92,
+          "y1": 0.53
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "6109",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "26",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "SET",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "1400.00",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "36400.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "2.50",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "2.50",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    },
+    {
+      "description": {
+        "value": "Cargo Palletization & Shrink Wrap Services",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.54,
+          "x1": 0.92,
+          "y1": 0.5900000000000001
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "996711",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "20",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "SET",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "4500.00",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "90000.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "9.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "9.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    },
+    {
+      "description": {
+        "value": "Caustic Soda Flakes Rayon Grade",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.6,
+          "x1": 0.92,
+          "y1": 0.65
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "2815",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "8",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "KGS",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "48.00",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "384.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "9.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "9.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    }
+  ],
+  "totals": {
+    "taxable_amount": {
+      "value": "129148.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.72,
+        "x1": 0.92,
+        "y1": 0.75
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cgst_amount": {
+      "value": "9257.32",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.75,
+        "x1": 0.92,
+        "y1": 0.78
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "sgst_amount": {
+      "value": "9257.32",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.78,
+        "x1": 0.92,
+        "y1": 0.81
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "igst_amount": {
+      "value": "0.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.81,
+        "x1": 0.92,
+        "y1": 0.84
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cess_amount": {
+      "value": "0.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.84,
+        "x1": 0.92,
+        "y1": 0.86
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "total_amount": {
+      "value": "147662.64",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.86,
+        "x1": 0.92,
+        "y1": 0.9
+      },
+      "source": "reader",
+      "edited": false
+    }
+  },
+  "status": "draft"
+}

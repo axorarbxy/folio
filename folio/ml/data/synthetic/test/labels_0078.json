@@ -1,0 +1,11 @@
+{
+  "invoice_id": "INV-2024-0078",
+  "is_clean": true,
+  "style": "digital",
+  "layout": "two_column",
+  "injected_errors": [],
+  "expected_failing_checks": [],
+  "degradation": {
+    "severity": 0
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "id": "INV-2024-0163",
+  "source_file_hash": "5a6a983b430bba8c8fb69c38f0e4921bd865df3e2600804607385a8c7e80e4ef",
+  "supplier_name": {
+    "value": "Howrah Iron & Foundry Works",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.1,
+      "x1": 0.55,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_gstin": {
+    "value": "19KNXWM8177S1ZN",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.14,
+      "x1": 0.45,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "supplier_state": {
+    "value": "19",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.17,
+      "x1": 0.35,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_name": {
+    "value": "Western Engineering Components",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.24,
+      "x1": 0.55,
+      "y1": 0.28
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_gstin": {
+    "value": "27UPBAC4582H1ZB",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.28,
+      "x1": 0.45,
+      "y1": 0.31
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "buyer_state": {
+    "value": "27",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.31,
+      "x1": 0.35,
+      "y1": 0.34
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "number": {
+    "value": "INV-2024-0163",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.1,
+      "x1": 0.92,
+      "y1": 0.14
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "date": {
+    "value": "2024-04-10",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.14,
+      "x1": 0.92,
+      "y1": 0.17
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "place_of_supply": {
+    "value": "27",
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.17,
+      "x1": 0.92,
+      "y1": 0.2
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "reverse_charge": {
+    "value": false,
+    "confidence": 0.99,
+    "box": {
+      "page": 1,
+      "x0": 0.6,
+      "y0": 0.2,
+      "x1": 0.92,
+      "y1": 0.23
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "irn": {
+    "value": "bcc4b9066035899c3164cef3d3a3542815a1def0542aac7cf1514458f542a9d5",
+    "confidence": 0.98,
+    "box": {
+      "page": 1,
+      "x0": 0.08,
+      "y0": 0.05,
+      "x1": 0.92,
+      "y1": 0.08
+    },
+    "source": "reader",
+    "edited": false
+  },
+  "items": [
+    {
+      "description": {
+        "value": "Flexible Jaw Coupling Spider Size 95",
+        "confidence": 0.98,
+        "box": {
+          "page": 1,
+          "x0": 0.08,
+          "y0": 0.42,
+          "x1": 0.92,
+          "y1": 0.47
+        },
+        "source": "reader",
+        "edited": false
+      },
+      "hsn": {
+        "value": "8483",
+        "confidence": 0.97,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "qty": {
+        "value": "25",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "unit": {
+        "value": "SET",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "rate": {
+        "value": "850.00",
+        "confidence": 0.98,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "taxable": {
+        "value": "21250.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "sgst_pct": {
+        "value": "0.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "igst_pct": {
+        "value": "28.00",
+        "confidence": 0.96,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      },
+      "cess_pct": {
+        "value": "0.00",
+        "confidence": 0.99,
+        "box": null,
+        "source": "reader",
+        "edited": false
+      }
+    }
+  ],
+  "totals": {
+    "taxable_amount": {
+      "value": "21250.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.72,
+        "x1": 0.92,
+        "y1": 0.75
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cgst_amount": {
+      "value": "0.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.75,
+        "x1": 0.92,
+        "y1": 0.78
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "sgst_amount": {
+      "value": "0.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.78,
+        "x1": 0.92,
+        "y1": 0.81
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "igst_amount": {
+      "value": "3825.00",
+      "confidence": 0.98,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.81,
+        "x1": 0.92,
+        "y1": 0.84
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "cess_amount": {
+      "value": "0.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.84,
+        "x1": 0.92,
+        "y1": 0.86
+      },
+      "source": "reader",
+      "edited": false
+    },
+    "total_amount": {
+      "value": "25075.00",
+      "confidence": 0.99,
+      "box": {
+        "page": 1,
+        "x0": 0.65,
+        "y0": 0.86,
+        "x1": 0.92,
+        "y1": 0.9
+      },
+      "source": "reader",
+      "edited": false
+    }
+  },
+  "status": "draft"
+}

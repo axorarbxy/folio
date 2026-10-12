@@ -1,0 +1,110 @@
+{
+  "description": "An individual invoice-level reconciliation match or difference.",
+  "properties": {
+    "match_id": {
+      "title": "Match Id",
+      "type": "string"
+    },
+    "bucket": {
+      "enum": [
+        "matched",
+        "value_mismatch",
+        "missing_in_2b",
+        "missing_in_books",
+        "vendor_not_filed",
+        "ineligible",
+        "duplicate",
+        "timing_difference"
+      ],
+      "title": "Bucket",
+      "type": "string"
+    },
+    "supplier_gstin": {
+      "title": "Supplier Gstin",
+      "type": "string"
+    },
+    "invoice_number": {
+      "title": "Invoice Number",
+      "type": "string"
+    },
+    "book_amount": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Book Amount"
+    },
+    "gstr2b_amount": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Gstr2B Amount"
+    },
+    "difference": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Difference"
+    },
+    "score": {
+      "default": 1.0,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Score",
+      "type": "number"
+    },
+    "reasons": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Reasons",
+      "type": "array"
+    },
+    "resolution": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Resolution"
+    }
+  },
+  "required": [
+    "match_id",
+    "bucket",
+    "supplier_gstin",
+    "invoice_number"
+  ],
+  "title": "ReconMatch",
+  "type": "object"
+}

@@ -1,0 +1,17 @@
+{
+  "invoice_id": "DUP-INV-2024-9999",
+  "is_clean": false,
+  "style": "digital",
+  "layout": "two_column",
+  "injected_errors": [
+    "duplicate_invoice",
+    "wrong_rate"
+  ],
+  "expected_failing_checks": [
+    "duplicate_detection",
+    "hsn_rate_match"
+  ],
+  "degradation": {
+    "severity": 0
+  }
+}

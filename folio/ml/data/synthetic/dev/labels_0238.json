@@ -1,0 +1,17 @@
+{
+  "invoice_id": "INV-2024-0238",
+  "is_clean": false,
+  "style": "digital",
+  "layout": "two_column",
+  "injected_errors": [
+    "bad_date",
+    "wrong_tax_type"
+  ],
+  "expected_failing_checks": [
+    "date_validity",
+    "tax_type_vs_place_of_supply"
+  ],
+  "degradation": {
+    "severity": 0
+  }
+}

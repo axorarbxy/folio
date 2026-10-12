@@ -1,0 +1,24 @@
+{
+  "invoice_id": "DUP-INV-2024-9999",
+  "is_clean": false,
+  "style": "photo",
+  "layout": "tabular",
+  "injected_errors": [
+    "duplicate_invoice"
+  ],
+  "expected_failing_checks": [
+    "duplicate_detection"
+  ],
+  "degradation": {
+    "severity": 2,
+    "effects": [
+      "rotation_-0.8deg",
+      "brightness_0.86",
+      "blur_radius_0.5",
+      "noise_sigma_10.0",
+      "jpeg_quality_50"
+    ],
+    "angle": -0.78,
+    "jpeg_quality": 50
+  }
+}

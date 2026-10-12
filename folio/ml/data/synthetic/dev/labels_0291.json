@@ -1,0 +1,11 @@
+{
+  "invoice_id": "INV-2024-0291",
+  "is_clean": true,
+  "style": "regional",
+  "layout": "regional_mixed",
+  "injected_errors": [],
+  "expected_failing_checks": [],
+  "degradation": {
+    "severity": 0
+  }
+}

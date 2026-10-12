@@ -1,0 +1,11 @@
+{
+  "model_name": "FolioFieldConfidenceCalibrator",
+  "version": "1.0.0",
+  "trained_at": "2026-10-11T18:08:42.157088",
+  "dataset_hash": "synthetic_dev_split_v1",
+  "architecture": "LogisticRegression + CalibratedClassifierCV(Platt)",
+  "n_samples": 1500,
+  "features_count": 15,
+  "intended_use": "Post-processing confidence calibration for GST invoice review routing",
+  "limits": "Trained on synthetic dev split; must never be trained on frozen test split"
+}

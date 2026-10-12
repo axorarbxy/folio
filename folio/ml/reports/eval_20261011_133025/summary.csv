@@ -1,0 +1,7 @@
+metric,value
+git_commit,62f527a36250ce7ab9379f4eb2d24bb9dc305d60
+validation_recall,90.91
+calibration_ece,N/A
+recon_precision,N/A
+guardrails_tpr,N/A
+rule_engine_p50_ms,N/A

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Ignore real documents in eval
+ml/data/eval/real/*.pdf
+ml/data/eval/real/*.png
+ml/data/eval/real/*.jpg
+ml/data/eval/real/*.jpeg
+ml/data/eval/real/annotations.csv

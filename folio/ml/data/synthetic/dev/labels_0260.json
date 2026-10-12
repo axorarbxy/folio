@@ -1,0 +1,24 @@
+{
+  "invoice_id": "INV-2024-0260",
+  "is_clean": false,
+  "style": "photo",
+  "layout": "simple",
+  "injected_errors": [
+    "math_error_line"
+  ],
+  "expected_failing_checks": [
+    "line_math"
+  ],
+  "degradation": {
+    "severity": 3,
+    "effects": [
+      "rotation_-2.1deg",
+      "brightness_1.03",
+      "blur_radius_1.0",
+      "noise_sigma_15.0",
+      "jpeg_quality_30"
+    ],
+    "angle": -2.06,
+    "jpeg_quality": 30
+  }
+}

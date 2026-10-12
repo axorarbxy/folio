@@ -1,0 +1,17 @@
+{
+  "invoice_id": "INV-2024-0146",
+  "is_clean": false,
+  "style": "digital",
+  "layout": "tabular",
+  "injected_errors": [
+    "reverse_charge_mismatch",
+    "wrong_tax_type"
+  ],
+  "expected_failing_checks": [
+    "reverse_charge_consistency",
+    "tax_type_vs_place_of_supply"
+  ],
+  "degradation": {
+    "severity": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "invoice_id": "INV-2024-0052",
+  "is_clean": false,
+  "style": "photo",
+  "layout": "thermal_receipt",
+  "injected_errors": [
+    "invalid_gstin",
+    "math_error_line"
+  ],
+  "expected_failing_checks": [
+    "gstin_format_checksum",
+    "line_math"
+  ],
+  "degradation": {
+    "severity": 1,
+    "effects": [
+      "rotation_-2.0deg",
+      "brightness_1.10",
+      "noise_sigma_5.0",
+      "jpeg_quality_70"
+    ],
+    "angle": -1.98,
+    "jpeg_quality": 70
+  }
+}

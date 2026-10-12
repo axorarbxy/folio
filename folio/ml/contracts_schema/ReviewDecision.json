@@ -1,0 +1,76 @@
+{
+  "$defs": {
+    "ReviewFieldDetail": {
+      "description": "Details on why a specific field was flagged for human review.",
+      "properties": {
+        "field_name": {
+          "title": "Field Name",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "confidence": {
+          "title": "Confidence",
+          "type": "number"
+        },
+        "current_value": {
+          "default": null,
+          "title": "Current Value"
+        }
+      },
+      "required": [
+        "field_name",
+        "reason",
+        "confidence"
+      ],
+      "title": "ReviewFieldDetail",
+      "type": "object"
+    }
+  },
+  "description": "Triage and routing decision for an invoice.",
+  "properties": {
+    "invoice_id": {
+      "title": "Invoice Id",
+      "type": "string"
+    },
+    "priority": {
+      "default": "medium",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ],
+      "title": "Priority",
+      "type": "string"
+    },
+    "auto_accept": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Auto Accept",
+      "type": "array"
+    },
+    "needs_review": {
+      "items": {
+        "$ref": "#/$defs/ReviewFieldDetail"
+      },
+      "title": "Needs Review",
+      "type": "array"
+    },
+    "reasons": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Reasons",
+      "type": "array"
+    }
+  },
+  "required": [
+    "invoice_id"
+  ],
+  "title": "ReviewDecision",
+  "type": "object"
+}

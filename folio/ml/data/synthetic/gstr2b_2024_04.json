@@ -1,0 +1,47 @@
+{
+  "period": "2024-04",
+  "records": [
+    {
+      "supplier_gstin": "27AABCS1429B1ZB",
+      "supplier_name": "Apex Precision Tools Pvt Ltd",
+      "invoice_number": "INV-2024-1001",
+      "invoice_date": "2024-04-10",
+      "taxable_value": 10000.0,
+      "cgst": 900.0,
+      "sgst": 900.0,
+      "igst": 0.0,
+      "cess": 0.0,
+      "itc_available": "Y",
+      "itc_reason": "",
+      "period": "2024-04"
+    },
+    {
+      "supplier_gstin": "24AABCS1429B1ZB",
+      "supplier_name": "Gujarat Polymer Industries",
+      "invoice_number": "INV-2024-1002",
+      "invoice_date": "2024-04-12",
+      "taxable_value": 20000.0,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3600.0,
+      "cess": 0.0,
+      "itc_available": "Y",
+      "itc_reason": "",
+      "period": "2024-04"
+    },
+    {
+      "supplier_gstin": "33AABCS1429B1ZB",
+      "supplier_name": "Coromandel Auto Castings",
+      "invoice_number": "INV-2024-1004",
+      "invoice_date": "2024-04-18",
+      "taxable_value": 15000.0,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2700.0,
+      "cess": 0.0,
+      "itc_available": "N",
+      "itc_reason": "Section 17(5) Blocked Credit",
+      "period": "2024-04"
+    }
+  ]
+}

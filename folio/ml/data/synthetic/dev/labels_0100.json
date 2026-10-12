@@ -1,0 +1,15 @@
+{
+  "invoice_id": "INV-2024-0100",
+  "is_clean": false,
+  "style": "digital",
+  "layout": "simple",
+  "injected_errors": [
+    "math_error_total"
+  ],
+  "expected_failing_checks": [
+    "tax_math"
+  ],
+  "degradation": {
+    "severity": 0
+  }
+}

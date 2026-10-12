@@ -1,0 +1,17 @@
+{
+  "invoice_id": "INV-2024-0052",
+  "is_clean": false,
+  "style": "digital",
+  "layout": "thermal_receipt",
+  "injected_errors": [
+    "invalid_gstin",
+    "wrong_tax_type"
+  ],
+  "expected_failing_checks": [
+    "gstin_format_checksum",
+    "tax_type_vs_place_of_supply"
+  ],
+  "degradation": {
+    "severity": 0
+  }
+}

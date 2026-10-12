@@ -1,0 +1,17 @@
+{
+  "invoice_id": "DUP-INV-2024-9999",
+  "is_clean": false,
+  "style": "regional",
+  "layout": "regional_mixed",
+  "injected_errors": [
+    "duplicate_invoice",
+    "missing_irn"
+  ],
+  "expected_failing_checks": [
+    "duplicate_detection",
+    "irn_presence"
+  ],
+  "degradation": {
+    "severity": 0
+  }
+}

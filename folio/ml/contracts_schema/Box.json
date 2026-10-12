@@ -1,0 +1,48 @@
+{
+  "description": "Bounding box normalized to 0.0 .. 1.0.",
+  "properties": {
+    "page": {
+      "default": 1,
+      "description": "1-indexed page number",
+      "minimum": 1,
+      "title": "Page",
+      "type": "integer"
+    },
+    "x0": {
+      "description": "Left coordinate (0..1)",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "X0",
+      "type": "number"
+    },
+    "y0": {
+      "description": "Top coordinate (0..1)",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Y0",
+      "type": "number"
+    },
+    "x1": {
+      "description": "Right coordinate (0..1)",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "X1",
+      "type": "number"
+    },
+    "y1": {
+      "description": "Bottom coordinate (0..1)",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Y1",
+      "type": "number"
+    }
+  },
+  "required": [
+    "x0",
+    "y0",
+    "x1",
+    "y1"
+  ],
+  "title": "Box",
+  "type": "object"
+}

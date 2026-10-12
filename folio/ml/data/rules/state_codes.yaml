@@ -1,0 +1,127 @@
+# Versioned GST State & Union Territory Codes Table
+# HARD RULE: Legal data is never invented.
+# All entries must carry verified: false until officially validated and signed off by legal team.
+# Source: CBIC GST State Code List (Notification No. 06/2017-Central Tax)
+
+version: "2024.1"
+source_url: "https://cbic-gst.gov.in/cbec-portal-ui/?state-codes"
+verified: false # TODO: Human legal compliance signoff required
+
+states:
+  - code: "01"
+    name: "Jammu and Kashmir"
+    verified: false
+  - code: "02"
+    name: "Himachal Pradesh"
+    verified: false
+  - code: "03"
+    name: "Punjab"
+    verified: false
+  - code: "04"
+    name: "Chandigarh"
+    verified: false
+  - code: "05"
+    name: "Uttarakhand"
+    verified: false
+  - code: "06"
+    name: "Haryana"
+    verified: false
+  - code: "07"
+    name: "Delhi"
+    verified: false
+  - code: "08"
+    name: "Rajasthan"
+    verified: false
+  - code: "09"
+    name: "Uttar Pradesh"
+    verified: false
+  - code: "10"
+    name: "Bihar"
+    verified: false
+  - code: "11"
+    name: "Sikkim"
+    verified: false
+  - code: "12"
+    name: "Arunachal Pradesh"
+    verified: false
+  - code: "13"
+    name: "Nagaland"
+    verified: false
+  - code: "14"
+    name: "Manipur"
+    verified: false
+  - code: "15"
+    name: "Mizoram"
+    verified: false
+  - code: "16"
+    name: "Tripura"
+    verified: false
+  - code: "17"
+    name: "Meghalaya"
+    verified: false
+  - code: "18"
+    name: "Assam"
+    verified: false
+  - code: "19"
+    name: "West Bengal"
+    verified: false
+  - code: "20"
+    name: "Jharkhand"
+    verified: false
+  - code: "21"
+    name: "Odisha"
+    verified: false
+  - code: "22"
+    name: "Chhattisgarh"
+    verified: false
+  - code: "23"
+    name: "Madhya Pradesh"
+    verified: false
+  - code: "24"
+    name: "Gujarat"
+    verified: false
+  - code: "26"
+    name: "Dadra & Nagar Haveli and Daman & Diu"
+    verified: false
+  - code: "27"
+    name: "Maharashtra"
+    verified: false
+  - code: "28"
+    name: "Andhra Pradesh (Old)"
+    verified: false
+  - code: "29"
+    name: "Karnataka"
+    verified: false
+  - code: "30"
+    name: "Goa"
+    verified: false
+  - code: "31"
+    name: "Lakshadweep"
+    verified: false
+  - code: "32"
+    name: "Kerala"
+    verified: false
+  - code: "33"
+    name: "Tamil Nadu"
+    verified: false
+  - code: "34"
+    name: "Puducherry"
+    verified: false
+  - code: "35"
+    name: "Andaman and Nicobar Islands"
+    verified: false
+  - code: "36"
+    name: "Telangana"
+    verified: false
+  - code: "37"
+    name: "Andhra Pradesh (New)"
+    verified: false
+  - code: "38"
+    name: "Ladakh"
+    verified: false
+  - code: "97"
+    name: "Other Territory"
+    verified: false
+  - code: "99"
+    name: "Centre Jurisdiction"
+    verified: false

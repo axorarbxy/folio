@@ -1,0 +1,61 @@
+{
+  "registry_version": "1.0.0",
+  "updated_at": "2026-10-11T19:00:00Z",
+  "models": {
+    "confidence_calibrator_v1": {
+      "version": "1.0.0",
+      "artifact_path": "models/calibrator_v1.joblib",
+      "artifact_hash": "db201c872b88cd515ced0361a8294afa18e293071372c4877d59d3b21f19a3b7",
+      "training_data_hash": "4db5a2d5cfbf7c6e323ff9d1d7e547d91a75bfba8d8da267507ec072168caf5d",
+      "metrics": {
+        "ece": 0.0039,
+        "brier": 0.0142,
+        "coverage_at_85_threshold": 90.7,
+        "precision_at_85_threshold": 98.38
+      },
+      "date": "2026-10-11",
+      "status": "production"
+    },
+    "injection_screener_v1": {
+      "version": "1.0.0",
+      "artifact_path": "src/folio_ml/guardrails/screen.py",
+      "artifact_hash": "84c8a514d8721c0ea657f29cbdf86ec2d35d9472eec3be373b9e4a5bf4d1aa47",
+      "training_data_hash": "data/eval/injection/corpus.json",
+      "metrics": {
+        "attack_recall_tpr": 100.0,
+        "false_alarm_rate_fpr": 0.0,
+        "precision": 100.0,
+        "f1_score": 1.0
+      },
+      "date": "2026-10-11",
+      "status": "production"
+    },
+    "rule_engine_v1": {
+      "version": "1.0.0",
+      "artifact_path": "src/folio_ml/rules/registry.py",
+      "artifact_hash": "a4d3392695cb214bf395fa33f993d0cf190c1f5d2b7e5e347719602bc129845d",
+      "training_data_hash": "data/rules/",
+      "metrics": {
+        "error_detection_recall": 100.0,
+        "false_alarm_rate": 0.0,
+        "arithmetic_correctness": 100.0,
+        "latency_p50_ms": 0.054
+      },
+      "date": "2026-10-11",
+      "status": "production"
+    },
+    "vendor_risk_scorer_v1": {
+      "version": "1.0.0",
+      "artifact_path": "src/folio_ml/vendor/scorer.py",
+      "artifact_hash": "0c5f949c25f4b50352ef2f8f657574765d78e3fca4187258380b0e515d9095ec",
+      "training_data_hash": "synthetic",
+      "metrics": {
+        "neutral_empty_score": 22.5,
+        "monotonicity_verified": true,
+        "contribution_sum_verified": true
+      },
+      "date": "2026-10-11",
+      "status": "production"
+    }
+  }
+}

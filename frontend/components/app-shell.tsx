@@ -1,4 +1,4 @@
-import { BarChart3, FileCheck2, FileText, HeartPulse, LayoutDashboard, Settings2, Users, type LucideIcon } from 'lucide-react'
+import { BarChart3, FileCheck2, FileText, HeartPulse, LayoutDashboard, Settings2, ShieldCheck, Users, type LucideIcon } from 'lucide-react'
 import { getSystemStatus } from '@/lib/monitoring-data'
 
 const workspaceLinks: { label: string; href: string; icon: LucideIcon }[] = [
@@ -8,6 +8,7 @@ const workspaceLinks: { label: string; href: string; icon: LucideIcon }[] = [
   { label: 'Vendors', href: '/app/vendors', icon: Users },
   { label: 'Reports', href: '/app/reports', icon: BarChart3 },
   { label: 'Monitoring', href: '/app/monitoring', icon: HeartPulse },
+  { label: 'Security', href: '/app/security', icon: ShieldCheck },
 ]
 
 export function MobileWorkspaceNav({ active, tourTarget }: { active: string; tourTarget?: string }) {

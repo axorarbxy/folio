@@ -1,0 +1,87 @@
+{
+  "run_id": "eval_20261011_133025",
+  "mode": "fake",
+  "git_commit": "62f527a36250ce7ab9379f4eb2d24bb9dc305d60",
+  "data_manifest_hash": "4db5a2d5cfbf7c6e323ff9d1d7e547d91a75bfba8d8da267507ec072168caf5d",
+  "timestamp": "2026-10-11T13:30:26.136707+00:00",
+  "rule_table_version": "v1",
+  "validation": {
+    "suite": "validation",
+    "total_injected_tests": 110,
+    "overall_detection_recall": 90.91,
+    "recall_95_ci": [
+      84.55,
+      95.45
+    ],
+    "false_alarm_rate_on_clean": 0.0,
+    "arithmetic_correctness": 100.0,
+    "results_by_injector": {
+      "inject_wrong_rate": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_invalid_gstin": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_math_error_line": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_math_error_total": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_wrong_tax_type": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_duplicate_invoice": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_bad_date": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_missing_irn": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_rounding_abuse": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_reverse_charge_mismatch": {
+        "tested": 10,
+        "detected": 10,
+        "missed": 0,
+        "recall": 100.0
+      },
+      "inject_tampered_amount_after_render": {
+        "tested": 10,
+        "detected": 0,
+        "missed": 10,
+        "recall": 0.0
+      }
+    }
+  }
+}

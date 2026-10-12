@@ -1,0 +1,338 @@
+# Versioned HSN / SAC Rate Table
+# HARD RULE: Seed sample entries with verified: false and TODO notes.
+# An unverified entry must never produce a "safe" verdict.
+
+version: "2024.1"
+source_url: "https://cbic-gst.gov.in/gst-goods-services-rates.html"
+verified: false # TODO: Legal counsel verification required
+
+rates:
+  # Manufacturing, Iron & Steel (18%)
+  - hsn_prefix: "7318"
+    description: "Screws, bolts, nuts, washers"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "7208"
+    description: "Flat-rolled products of iron or non-alloy steel"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "7214"
+    description: "TMT Rebars Fe500D"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "7216"
+    description: "Angles, shapes and sections of iron"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "7306"
+    description: "Other tubes, pipes and hollow profiles"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  # Machinery & Electrical (18%)
+  - hsn_prefix: "8481"
+    description: "Taps, cocks, valves"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "8482"
+    description: "Ball or roller bearings"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "8483"
+    description: "Transmission shafts, cranks, bearing housings"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "8413"
+    description: "Pumps for liquids"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "8544"
+    description: "Insulated wire, cable"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "8536"
+    description: "Electrical apparatus for switching"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "8504"
+    description: "Electrical transformers, static converters"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  # Polymers & Chemicals (18%)
+  - hsn_prefix: "3901"
+    description: "Polymers of ethylene"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "3902"
+    description: "Polymers of propylene"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "3923"
+    description: "Articles for conveyance or packing of goods"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "3917"
+    description: "Tubes, pipes and hoses of plastics"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "3926"
+    description: "Other articles of plastics"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "3919"
+    description: "Self-adhesive plates, sheets, film"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "2806"
+    description: "Hydrogen chloride"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "2815"
+    description: "Sodium hydroxide (caustic soda)"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "2905"
+    description: "Acyclic alcohols (IPA)"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "3814"
+    description: "Organic composite solvents and thinners"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "3824"
+    description: "Prepared binders for foundry moulds or cores"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  # Construction & Stone
+  - hsn_prefix: "6907"
+    description: "Ceramic tiles"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "6802"
+    description: "Worked monumental or building stone"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "2523"
+    description: "Portland cement"
+    rate_pct: "28.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iv.pdf"
+    verified: false
+
+  - hsn_prefix: "2517"
+    description: "Pebbles, gravel, broken or crushed stone"
+    rate_pct: "5.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-i.pdf"
+    verified: false
+
+  # Textiles (5% & 12%)
+  - hsn_prefix: "5205"
+    description: "Cotton yarn"
+    rate_pct: "5.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-i.pdf"
+    verified: false
+
+  - hsn_prefix: "5208"
+    description: "Woven fabrics of cotton"
+    rate_pct: "5.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-i.pdf"
+    verified: false
+
+  - hsn_prefix: "5402"
+    description: "Synthetic filament yarn"
+    rate_pct: "12.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-ii.pdf"
+    verified: false
+
+  - hsn_prefix: "6109"
+    description: "T-shirts, singlets and other vests, knitted or crocheted"
+    rate_pct: "5.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-i.pdf"
+    verified: false
+
+  - hsn_prefix: "6203"
+    description: "Men's suits, jackets, trousers"
+    rate_pct: "12.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-ii.pdf"
+    verified: false
+
+  # Packaging & Paper
+  - hsn_prefix: "4819"
+    description: "Cartons, boxes, cases of corrugated paper"
+    rate_pct: "12.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-ii.pdf"
+    verified: false
+
+  - hsn_prefix: "4819"
+    description: "Folding cartons, boxes, cases of non-corrugated paperboard"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  - hsn_prefix: "4802"
+    description: "Uncoated paper and paperboard (A4 Copier)"
+    rate_pct: "12.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-ii.pdf"
+    verified: false
+
+  - hsn_prefix: "4821"
+    description: "Paper or paperboard labels"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  # Food & Agro (5% & 18%)
+  - hsn_prefix: "0902"
+    description: "Tea, whether or not flavoured"
+    rate_pct: "5.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-i.pdf"
+    verified: false
+
+  - hsn_prefix: "1006"
+    description: "Rice"
+    rate_pct: "5.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-i.pdf"
+    verified: false
+
+  - hsn_prefix: "1512"
+    description: "Sunflower-seed, safflower or cotton-seed oil"
+    rate_pct: "5.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-i.pdf"
+    verified: false
+
+  - hsn_prefix: "0910"
+    description: "Ginger, saffron, turmeric (curcuma), thyme"
+    rate_pct: "5.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-i.pdf"
+    verified: false
+
+  - hsn_prefix: "2106"
+    description: "Food preparations not elsewhere specified"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/schedule-iii.pdf"
+    verified: false
+
+  # Services & Transport
+  - hsn_prefix: "9983"
+    description: "Other professional, technical and business services"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/services-schedule.pdf"
+    verified: false
+
+  - hsn_prefix: "996519"
+    description: "Container haulage / specialized transportation services"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/services-schedule.pdf"
+    verified: false
+
+  - hsn_prefix: "9965"
+    description: "Goods transport services by road"
+    rate_pct: "5.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/services-schedule.pdf"
+    verified: false
+
+  - hsn_prefix: "9967"
+    description: "Supporting services in transport"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/services-schedule.pdf"
+    verified: false
+
+  - hsn_prefix: "9987"
+    description: "Maintenance, repair and installation services"
+    rate_pct: "18.00"
+    effective_from: "2017-07-01"
+    source_url: "https://cbic-gst.gov.in/pdf/rates/services-schedule.pdf"
+    verified: false

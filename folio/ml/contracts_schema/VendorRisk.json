@@ -1,0 +1,112 @@
+{
+  "$defs": {
+    "RiskContribution": {
+      "description": "Explainable contribution factor to vendor risk score.",
+      "properties": {
+        "feature": {
+          "title": "Feature",
+          "type": "string"
+        },
+        "weight": {
+          "title": "Weight",
+          "type": "number"
+        },
+        "value": {
+          "title": "Value"
+        },
+        "effect_points": {
+          "title": "Effect Points",
+          "type": "number"
+        }
+      },
+      "required": [
+        "feature",
+        "weight",
+        "value",
+        "effect_points"
+      ],
+      "title": "RiskContribution",
+      "type": "object"
+    }
+  },
+  "description": "Vendor risk evaluation report.",
+  "properties": {
+    "gstin": {
+      "title": "Gstin",
+      "type": "string"
+    },
+    "vendor_name": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Vendor Name"
+    },
+    "score": {
+      "description": "Risk score in 0..100",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "title": "Score",
+      "type": "number"
+    },
+    "credible_interval": {
+      "default": [
+        0.0,
+        100.0
+      ],
+      "maxItems": 2,
+      "minItems": 2,
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "title": "Credible Interval",
+      "type": "array"
+    },
+    "limited_history": {
+      "default": true,
+      "title": "Limited History",
+      "type": "boolean"
+    },
+    "tag": {
+      "default": "Watch",
+      "enum": [
+        "Reliable",
+        "Watch",
+        "High risk"
+      ],
+      "title": "Tag",
+      "type": "string"
+    },
+    "contributions": {
+      "items": {
+        "$ref": "#/$defs/RiskContribution"
+      },
+      "title": "Contributions",
+      "type": "array"
+    },
+    "filing_history": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Filing History",
+      "type": "array"
+    }
+  },
+  "required": [
+    "gstin",
+    "score"
+  ],
+  "title": "VendorRisk",
+  "type": "object"
+}

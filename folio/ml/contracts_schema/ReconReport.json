@@ -1,0 +1,177 @@
+{
+  "$defs": {
+    "ReconMatch": {
+      "description": "An individual invoice-level reconciliation match or difference.",
+      "properties": {
+        "match_id": {
+          "title": "Match Id",
+          "type": "string"
+        },
+        "bucket": {
+          "enum": [
+            "matched",
+            "value_mismatch",
+            "missing_in_2b",
+            "missing_in_books",
+            "vendor_not_filed",
+            "ineligible",
+            "duplicate",
+            "timing_difference"
+          ],
+          "title": "Bucket",
+          "type": "string"
+        },
+        "supplier_gstin": {
+          "title": "Supplier Gstin",
+          "type": "string"
+        },
+        "invoice_number": {
+          "title": "Invoice Number",
+          "type": "string"
+        },
+        "book_amount": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Book Amount"
+        },
+        "gstr2b_amount": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gstr2B Amount"
+        },
+        "difference": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Difference"
+        },
+        "score": {
+          "default": 1.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Score",
+          "type": "number"
+        },
+        "reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reasons",
+          "type": "array"
+        },
+        "resolution": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Resolution"
+        }
+      },
+      "required": [
+        "match_id",
+        "bucket",
+        "supplier_gstin",
+        "invoice_number"
+      ],
+      "title": "ReconMatch",
+      "type": "object"
+    }
+  },
+  "description": "Summary of reconciliation results for a tax period.",
+  "properties": {
+    "period": {
+      "title": "Period",
+      "type": "string"
+    },
+    "total_invoices_books": {
+      "default": 0,
+      "title": "Total Invoices Books",
+      "type": "integer"
+    },
+    "total_invoices_2b": {
+      "default": 0,
+      "title": "Total Invoices 2B",
+      "type": "integer"
+    },
+    "matched_count": {
+      "default": 0,
+      "title": "Matched Count",
+      "type": "integer"
+    },
+    "mismatched_count": {
+      "default": 0,
+      "title": "Mismatched Count",
+      "type": "integer"
+    },
+    "missing_in_2b_count": {
+      "default": 0,
+      "title": "Missing In 2B Count",
+      "type": "integer"
+    },
+    "rupee_at_risk": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "default": "0.00",
+      "title": "Rupee At Risk"
+    },
+    "bucket_counts": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Bucket Counts",
+      "type": "object"
+    },
+    "matches": {
+      "items": {
+        "$ref": "#/$defs/ReconMatch"
+      },
+      "title": "Matches",
+      "type": "array"
+    }
+  },
+  "required": [
+    "period"
+  ],
+  "title": "ReconReport",
+  "type": "object"
+}

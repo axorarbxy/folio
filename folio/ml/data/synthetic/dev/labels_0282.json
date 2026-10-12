@@ -1,0 +1,17 @@
+{
+  "invoice_id": "INV-2024-0282",
+  "is_clean": false,
+  "style": "regional",
+  "layout": "regional_mixed",
+  "injected_errors": [
+    "missing_irn",
+    "tampered_amount_after_render"
+  ],
+  "expected_failing_checks": [
+    "irn_presence",
+    "tamper_detection"
+  ],
+  "degradation": {
+    "severity": 0
+  }
+}

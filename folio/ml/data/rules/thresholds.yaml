@@ -1,0 +1,19 @@
+# Versioned GST Compliance Thresholds
+# HARD RULE: Legal data carries verified flags and TODO notes.
+
+version: "2024.1"
+source_url: "https://cbic-gst.gov.in/notifications.html"
+verified: false # TODO: Human signoff required
+
+thresholds:
+  e_invoice_turnover_threshold_cr: 5.0
+  e_invoice_turnover_threshold_source: "Notification No. 10/2023-Central Tax dated 10th May 2023"
+  e_invoice_turnover_verified: false # TODO: Verification required
+
+  rounding_tolerance_rupees: 1.00
+  rounding_tolerance_source: "Section 170 CGST Act 2017 (Rounding off of tax)"
+  rounding_tolerance_verified: false # TODO: Verification required
+
+  duplicate_window_days: 365
+  duplicate_window_source: "Rule 48 CGST Rules (Invoicing rules within Financial Year)"
+  duplicate_window_verified: false # TODO: Verification required

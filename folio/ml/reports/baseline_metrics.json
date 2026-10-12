@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "data_manifest_hash": "4db5a2d5cfbf7c6e323ff9d1d7e547d91a75bfba8d8da267507ec072168caf5d",
+  "targets": {
+    "validation_error_detection_recall_pct": {
+      "target": 100.0,
+      "min_acceptable": 95.0
+    },
+    "clean_invoice_false_alarm_rate_pct": {
+      "target": 0.0,
+      "max_acceptable": 5.0
+    },
+    "calibration_ece": {
+      "target": 0.0039,
+      "max_acceptable": 0.05
+    },
+    "calibration_brier": {
+      "target": 0.0142,
+      "max_acceptable": 0.05
+    },
+    "reconciliation_match_precision_pct": {
+      "target": 100.0,
+      "min_acceptable": 98.0
+    },
+    "reconciliation_match_recall_pct": {
+      "target": 100.0,
+      "min_acceptable": 98.0
+    },
+    "guardrails_attack_recall_tpr_pct": {
+      "target": 100.0,
+      "min_acceptable": 95.0
+    },
+    "guardrails_false_positive_rate_fpr_pct": {
+      "target": 0.0,
+      "max_acceptable": 5.0
+    },
+    "rule_engine_p50_latency_ms": {
+      "target": 0.1,
+      "max_acceptable": 5.0
+    }
+  }
+}
